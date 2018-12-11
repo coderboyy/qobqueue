@@ -54,6 +54,16 @@ public class Params {
         return this;
     }
 
+    
+    
+    public Params requireSockeIO(){
+        requiredNetworkType = NetworkUtil.SOCKET;
+        return this;
+        
+    }
+    
+    
+    
     /**
      * Sets the Job as requiring UNMETERED network.
      * @return this
