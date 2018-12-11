@@ -21,7 +21,7 @@ public interface NetworkUtil {
     int DISCONNECTED = 0;
     int METERED = 1;
     int UNMETERED = 2;
-    int SOCKET= 3
+    int SOCKET= 3;
 
     /**
      * Returns the current connection status. If you cannot detect granular network type, return
